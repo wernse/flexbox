@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "app/css/css/bootstrap.css";
+
+.btn {
+  &--lg_txt{
+  font-size: 40px;
+  }
+  &--vert_center{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .glyphicon{
+    padding-left: 10px;
+    display: flex;
+}
+  }
+  
+}
+
+
+
+.no_margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.item{
+    background-color: #ccc;
+    &__value{
+        font-weight: 200;
+        font-size: 35px;
+    }
+}
+
+.content {
+  &--row {
+    display: flex;
+    flex-direction: row;
+  }
+  &--col {
+    display: flex;
+    flex-direction: column;
+  }
+  &--wrap {
+    flex-wrap: wrap;
+  }
+
+  &--justify{
+    justify-content: space-between;
+  }
+
+  &__header {
+    color: green;
+  }
+  &__body{
+    border: 1px dotted #ccc;
+    padding: 10px;
+  }
+
+  &--vert_middle {
+    align-items: center;
+  }
+}
+
+.button_container{
+    &--space{
+        display: flex;
+        justify-content: space-between;
+    }
+}

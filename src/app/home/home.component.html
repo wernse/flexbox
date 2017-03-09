@@ -1,0 +1,25 @@
+<div class="container">
+
+  <p>
+    justify-content works!
+  </p>
+  <div class="clearfix">
+    <h2 class="content__header">Header</h2>
+    <div class="">
+      <div *ngFor="let hero of heroes" >
+        <label class="no_margin">{{hero.id}}</label>
+        <div class="no_margin item__value">{{hero.name}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="button_container--space">
+    <button class="btn btn-primary btn-lg">
+  Back
+  <i class="glyphicon glyphicon-plus"></i>
+ </button>
+    <button class="btn btn-primary btn-lg btn--vert_center">
+      <span class="btn--lg_txt">Forward</span>
+      <i class="glyphicon glyphicon-plus"></i>
+  </button>
+  </div>
+</div>
